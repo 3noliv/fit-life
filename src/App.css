@@ -1,0 +1,49 @@
+body {
+  background-color: #121212; /* Fondo oscuro */
+  color: white; /* Color del texto blanco */
+  font-family: Arial, sans-serif; /* Fuente básica */
+}
+
+h2 {
+  text-align: center; /* Centra los encabezados */
+}
+
+label {
+  display: block; /* Cada etiqueta ocupa una línea */
+  margin: 10px 0 5px; /* Espaciado superior e inferior */
+}
+
+input,
+select {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #4caf50; /* Borde verde */
+  background-color: #1e1e1e; /* Fondo oscuro para campos de entrada */
+  color: white; /* Texto en los campos de entrada */
+}
+
+.button-container {
+  display: flex; /* Flexbox para alinear botones */
+  justify-content: space-between; /* Botones a los extremos */
+  margin-top: 20px; /* Espacio arriba */
+}
+
+.button-container button {
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #4caf50; /* Fondo verde */
+  color: white; /* Texto blanco */
+  cursor: pointer; /* Cursor de puntero */
+  transition: background-color 0.3s; /* Transición para el hover */
+}
+
+.button-container button:hover {
+  background-color: #45a049; /* Color más oscuro al pasar el mouse */
+}
+
+.error {
+  color: red; /* Color rojo para mensajes de error */
+  font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
